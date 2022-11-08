@@ -1,0 +1,32 @@
+.loading {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
+	box-sizing: border-box;
+	justify-content: center;
+	width: 100%;
+	background: rgba(18, 18, 18, 255);
+	width: 100%;
+		position: absolute;
+	  z-index: 999;
+		top:0px;
+    left:0px;
+    bottom:0px;
+    right:0px;
+
+	div {
+		text-align: center;
+		padding: 20px;
+		width: 90%;
+
+		p {
+			color: white;
+		}
+	}
+
+	img {
+		max-width: 100%;
+	}
+}

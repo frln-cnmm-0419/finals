@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap'); // importing fonts from google cdn
+
+$theme: #f4a900; // setting theme color
+$accent: #0E522D; // setting accent color
+// reset stylings
+*, *::before, *::after {
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+// make the cursor turn into pointer when hovering the buttons
+button {
+	cursor: pointer;
+}
+
+// user wont be able highlight the text
+h1, h2, h3, h4, h5, h6, p {
+	user-select: none;
+}

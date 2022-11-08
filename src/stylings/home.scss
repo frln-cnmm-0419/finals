@@ -1,0 +1,44 @@
+@import './global.scss';
+
+.homeWrapper {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+
+  .blobWrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .contentWrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+
+    // media breakpoints for medium screen e.g laptops
+    @media (min-width: 1024px) {
+      // flex-direction: row;
+    }
+
+    .smallNav {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      height: 10vh;
+      width: 100%;
+      padding :20px;
+    }
+
+    .name {
+      display: flex;
+      text-align: left;
+      align-items: left;
+    }
+  }
+}
