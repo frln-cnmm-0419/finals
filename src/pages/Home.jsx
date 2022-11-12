@@ -17,9 +17,9 @@ const Home = () => {
 
 			<div className='contentWrapper'>
 				<div className='smallNav'>
-					<button><img src={ qm } alt='frequently asked question' /></button>
-					<button><img src={ info } alt='about us'/></button>
-					<button><img src={ loc } alt='stores'/></button>
+					<img src={ qm } alt='frequently asked question' />
+					<img src={ info } alt='about us'/>
+					<img src={ loc } alt='stores'/>
 				</div>
 
 				<div className='name'>
